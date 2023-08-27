@@ -8,7 +8,7 @@ Ngày 1: 27/8/2023
 
 - _div_ có độ rộng bằng 100%, phần tử chứa nó.
 - _img_ là thẻ inline, hiễn thị hình ảnh có 2 thuộc tính `src` = 'source' và `alt` = 'alternate text'.
-  `alt` hiễn thị khi `src` sai.
+  - `alt` hiễn thị khi `src` sai.
 - _span_ là nó là inline, dùng trong các đoạn chử ngắn/
 - _class_ là thuộc tính, cho thẻ một cái tên xong chút CSS sao.
   tên _class_ tiếng anh dễ dùng.
