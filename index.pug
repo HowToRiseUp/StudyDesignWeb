@@ -1,4 +1,4 @@
-include ./pug/tuor-mixin
+include ./pug-mixin/popular-item-mixin
 
 doctype html
 html(lang="en")
@@ -9,11 +9,13 @@ html(lang="en")
         link(rel="preconnect" href="https://fonts.googleapis.com" )
         link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin )
         link(href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap" rel="stylesheet")
-        link(rel="stylesheet" href="app.css")
+        link(rel="stylesheet" href="./styles/popular.css")
     body
-        .tourlist-container
-            .tour-list
-                +tour("https://cdn.dribbble.com/userupload/8179681/file/original-2667773929d7ab95607222329886abea.png?resize=400x300&vertical=center", "$40", "Thailands Ayutthaya Temples Cruise from Bangkok", 4.8 , 12 , 9 ,61)
-                +tour("https://cdn.dribbble.com/userupload/7320803/file/still-8c8cd59aaa4ffb25c3d888967a88c32a.png?resize=450x338&vertical=center", "$49", "Thailands Ayutthaya Temples Cruise from Bangkok", 4.8 , 12 , 9 ,61)
-                +tour("https://cdn.dribbble.com/userupload/4446053/file/original-7fb4846ca422532515109913097be6ec.jpg?resize=450x338&vertical=center", "$53", "Thailands Ayutthaya Temples Cruise from Bangkok", 5.0 , 121 , 91 ,611)
-                    
+        .container
+            h2 Popular things to do in Bangkok
+            .popular-content 
+                .popular-list 
+                    +popularItem
+                    +popularItem
+                    +popularItem
+                    +popularItem

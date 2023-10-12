@@ -1,10 +1,10 @@
 body {
   font-family: "Inter", sans-serif;
 }
-.tourlist-container{
+.tourlist-container {
   padding: 50px 135px;
 }
-.tour-list{
+.tour-list {
   margin-left: auto;
   margin-right: auto;
 
@@ -12,25 +12,27 @@ body {
   /* width: 1170px; */
   height: 499px;
 }
-.tuor-container{
+.tuor-container {
   border-radius: 20px;
   border: 1px solid rgb(9, 9, 8);
 }
-.tour-list{
+.tour-list {
   display: flex;
   justify-content: center;
   column-gap: 30px;
 }
-.tour{
+.tour {
   width: 33.33%;
+  border-radius: 10px;
 }
-.tuor-content{
+
+.tuor-content {
   padding: 20px;
 }
-.tour-top{
+.tour-top {
   border-radius: 20px;
 }
-.tour-top ~ img{
+.tour-top ~ img {
   border-radius: 20px;
   width: 100%;
 }
@@ -48,7 +50,7 @@ body {
   justify-content: space-between;
   margin-bottom: 20px;
 }
-.tour-button{
+.tour-button {
   padding: 20px;
   background-color: rgb(30, 88, 174);
   color: white;
@@ -57,4 +59,47 @@ body {
   border: 0px;
   font-size: 20px;
 }
-
+.tour-image {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  height: 239px;
+  object-fit: cover;
+  display: block;
+}
+.tour-top {
+  position: relative;
+}
+.tuor-price {
+  position: absolute;
+  top: 24px;
+  left: 30px;
+  padding: 10px 16px;
+  background-color: rgb(53, 57, 69, 0.8);
+  border-radius: 4px;
+  font-size: 12px;
+  color: white;
+}
+@media only screen and (max-width: 767.98px) {
+  .tourlist-container {
+    padding: 50px 24px;
+  }
+  .tour-list {
+    display: block;
+  }
+  .tour {
+    width: 100%;
+    border-radius: 10px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .tourlist-container {
+    padding: 50px 24px;
+  }
+  .tour-list {
+    display: block;
+  }
+  .tour {
+    width: 100%;
+    border-radius: 10px;
+  }
+}
