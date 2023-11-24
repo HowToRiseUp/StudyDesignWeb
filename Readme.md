@@ -2,6 +2,12 @@
 
 - `git checkout -b popular-things` : tạo nhánh mới
 
+### Challeng 14 (nói chung là clean ) <-> 24/11/2003
+
+- Tạo image mặt định
+- Tạo khoảng trống
+- Dàng hàng ngang khối theo chuẩn
+
 ### Pug cơ bản.
 
 - `npm install pug -g` : tải pug về mà dùng. Tùy chọn -g có ý nghĩa là "cài đặt toàn cầu" (global).
