@@ -1,11 +1,5 @@
 # FUCK
 
-### SASS
-
-- Node v14.17.3 (LTS)
-- `npm intsall -g sass`
-- `sass path-of-sass-file path-of-css-file --watch`
-
 ### Git
 
 - `git checkout -b popular-things` : tạo nhánh mới
@@ -13,7 +7,16 @@
 - `git switch main` # Chuyển sang nhánh main
 - `git stash apply` # Áp dụng lại các thay đổi từ stash (nếu cần)
 
-### 11, 12: Tìm hiểu Pug cơ bản.
+### SASS
+
+- Node v14.17.3 (LTS)
+- `npm intsall -g sass`
+- `sass path-of-sass-file path-of-css-file --watch`
+- `tour{ &-cc{
+  âa
+} }`
+
+### Pug
 
 - `npm install pug -g` : tải pug về mà dùng. Tùy chọn -g có ý nghĩa là "cài đặt toàn cầu" (global).
 - `pug index.pug --watch --pretty` : _--watch_ làm mới liên tục | _--pretty_ tạo file html covert sang.
