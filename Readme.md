@@ -1,3 +1,5 @@
+# FUCK
+
 ### Git
 
 - `git checkout -b popular-things` : tạo nhánh mới
