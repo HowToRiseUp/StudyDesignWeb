@@ -1,5 +1,11 @@
 # FUCK
 
+### SASS
+
+- Node v14.17.3 (LTS)
+- `npm intsall -g sass`
+- `sass path-of-sass-file path-of-css-file --watch`
+
 ### Git
 
 - `git checkout -b popular-things` : tạo nhánh mới
