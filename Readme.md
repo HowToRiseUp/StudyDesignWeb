@@ -1,5 +1,12 @@
 # FUCK
 
+### Challeng 3
+
+- `gird-template-area`
+- `auto-fill` và `auto-fit`
+- minmax
+- peseodo
+
 ### Git
 
 - `git checkout -b popular-things` : tạo nhánh mới
@@ -12,9 +19,10 @@
 - Node v14.17.3 (LTS)
 - `npm intsall -g sass`
 - `sass path-of-sass-file path-of-css-file --watch`
-- `tour{ &-cc{
-  âa
+- `_nested_` === `tour{ &-cc{npm instas
+  css
 } }`
+- # parten 7 - 1
 
 ### Pug
 

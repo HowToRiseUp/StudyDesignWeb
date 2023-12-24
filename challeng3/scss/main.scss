@@ -1,0 +1,27 @@
+.gem {
+  &-list {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+    /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+    grid-template-rows: 300px 300px 150px;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 30px;
+    grid-template-areas:
+      "area1 area1 area2"
+      "area1 area1 area3"
+      "area4 area5 area5";
+    background-color: gray;
+  }
+  &-item {
+    background-color: bisque;
+  }
+  @for $i from 1 through 5 {
+    &-item:nth-child(#{$i}) {
+      grid-area: area + #{$i};
+    }
+  }
+}
+img {
+  width: 100%;
+  display: block;
+}

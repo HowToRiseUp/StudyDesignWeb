@@ -1,0 +1,35 @@
+.gem-list {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+  /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+  grid-template-rows: 300px 300px 150px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  grid-template-areas: "area1 area1 area2" "area1 area1 area3" "area4 area5 area5";
+  background-color: gray;
+}
+.gem-item {
+  background-color: bisque;
+}
+.gem-item:nth-child(1) {
+  grid-area: area1;
+}
+.gem-item:nth-child(2) {
+  grid-area: area2;
+}
+.gem-item:nth-child(3) {
+  grid-area: area3;
+}
+.gem-item:nth-child(4) {
+  grid-area: area4;
+}
+.gem-item:nth-child(5) {
+  grid-area: area5;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+/*# sourceMappingURL=main.css.map */
