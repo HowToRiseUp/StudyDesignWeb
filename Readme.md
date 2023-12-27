@@ -1,4 +1,7 @@
-# FUCK
+### Challeng 5 ( Flexbox nâng cao )
+
+- `flex: 1`
+- grow 1 shirk 1 basic 0
 
 ### Challeng 3
 
