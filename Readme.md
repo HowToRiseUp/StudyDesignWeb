@@ -1,3 +1,17 @@
+### Challeng 6 (Tùy Biến checkbox)
+
+- Kết Luận: thẻ input không thể css check bõ được
+- Nguyên Nhân: do trình duyệt không hổ trợ
+- Giải Pháp: `Dùng Label bocji lại, đè thẻ input (display: none ) lên div đã styte style `
+
+- comninator: _+_ chọn phần tử kế bên từ trên xuống
+
+### Challeng em - rem
+
+- `em` thì chạy theo ba
+- `rem` thì chạy theo root
+- reposive thì nên dùng `em` vì sẽ có zoom
+
 ### Challeng 5 ( Flexbox nâng cao )
 
 - `flex: 1`
