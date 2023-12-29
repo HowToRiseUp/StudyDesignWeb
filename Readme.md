@@ -1,3 +1,9 @@
+### Challeng 7 (Tùy Biến dropdow)
+
+- Kết Luận: không thể dùng select option
+- Nguyên Nhân: kệ mẹ nó
+- Giải Pháp: `Có absolute cho con và dùng các thẻ div`
+
 ### Challeng 6 (Tùy Biến checkbox)
 
 - Kết Luận: thẻ input không thể css check bõ được
